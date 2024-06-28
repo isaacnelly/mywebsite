@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Isaac Nelson</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/mainSS.css" rel="stylesheet">
+</head>
+
+
+
+<body class="body">
+    <section class="name">
+        <center><h1>Isaac Nelson</h1></center>
+    </section>
+
+    <!--          link shortcuts           -->
+    <nav class="links">
+
+        <a href="./resume.html">Resume</a>
+        <a href="#" style="float: right;">Contact Me</a>
+    </nav>
+
+
+    <div class="left">
+            <figure class="lakSup">
+                <img src="lak_sup1.jpg" style="max-width:500px; width:100%; height:auto;
+                                                min-width: 100px;">
+            </figure>
+    </div>
+
+    <section class="right">
+        <section class="about"><center><h1>About Me</h1></center></section>
+        <div class="infoParent">
+            <p class="info">Hi, my name is <strong>Isaac Nelson</strong>.</p>
+        </div>
+    </section>
+    
+    <div class="future"></div>
+
+
+
+    <script src="js/JavaScript.js"></script>
+</body>
+</html>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------->
+<style>
+    .body{
+        background: linear-gradient(#ffffff,#0300d3,#020066,#000000);
+    }
+    .name {
+        background-image: linear-gradient(#ffffff,#0025ff,#001599);
+        font-size: calc(3vw + 0.7vw);
+    }
+    .links {
+        background-image: linear-gradient(#001599,#110070);
+    }
+    /*#430F89*/
+
+
+    .left {
+        background-image: linear-gradient(#110070,#5a0095);
+        padding: 10px 0px 20px 0px;
+        height: 100%;
+        width: 30%;
+        float: left;
+    }
+    
+    @media screen and (max-width: 600px){
+        div.left{
+            width: 50%;
+        }
+    }
+
+    .about {
+        color: white;
+        padding: 0px 0px 0px 20px;
+        font-size: calc(15px + 0.7vw);
+    }
+
+    .right {
+        background-image: linear-gradient(#110070,#5a0095);
+        font-size: calc(10px + 0.7vw);
+        color: white;
+        /*background: #5a0095; */
+        padding: 12px 0px 10px 0px;
+    }
+
+   @media screen and (max-width: 600px){
+        div.right {
+            padding: 25px 0px 10px 1vw;
+        }
+    }
+    
+   @media screen and (min-width: 601px) {
+        .info {
+            padding: 0px 0px 0px 30vw;
+        }
+   }
+    
+   @media screen and (max-width: 600px){
+        .infoParent {
+            text-align: center;
+        }
+    }
+
+    .lakSup {
+    }
+</style>
