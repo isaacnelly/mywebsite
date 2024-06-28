@@ -1,0 +1,40 @@
+﻿ {
+    background-color: #000000;
+    color: #000000;
+    padding: 25px;
+    font-family: sans-serif;
+}
+
+.name {
+
+    color: #ffffff;
+    padding: 30px;
+    text-align: left;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+/*Link styling*/
+.links {
+
+    overflow: hidden;
+    text-align: left;
+}
+
+    .links a {
+        padding: 25px 10px 25px 10px;
+        float: left;
+        display: block;
+        text-align: left;
+        text-decoration: none;
+    }
+
+        .links a:hover {
+            background: #ffffff;
+            color: #000000;
+        }
+/*unvisited link*/
+a {
+    color: #ffffff;
+}
+/*----------------------------------------------------*/
+
