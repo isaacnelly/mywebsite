@@ -6,8 +6,44 @@ html {
     color: #ffffff;
 }
 
+.name{
+    display: flex;
+    justify-content: center;       /* center items by default */
+    align-items: center;
+    position: relative;            /* so we can absolutely place button */
+    padding: 30px;
+    background-color: transparent;
+}
+.name h1 {
+        color: #ffffff;
+    font-size: calc(15px + 0.7vw);
+}
+
+.downloadbtn {
+    position: absolute;            /* so it can be placed over the name */
+    right: 1vw;
+    top: 30px;
+    padding: 1vw 1vw;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 1vw;
+    font-size: small;
+}
+.downloadbtn:hover {
+    background-color: #cccccc;
+}
+
+.downloadbtn svg {
+    display: block;
+}
+
 .info{
     padding: 0px 15px 0px 9vw;
+}
+.info h4 {
+    color: #ffffff;
+    font-size: calc(12px + 0.7vw);
 }
 
 
