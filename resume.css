@@ -31,6 +31,7 @@ html {
     font-size: small;
 }
 .downloadbtn:hover {
+    
     background-color: #cccccc;
 }
 
@@ -40,11 +41,25 @@ html {
 
 .info{
     padding: 0px 15px 0px 9vw;
+    font-size: calc(10px + 0.7vw);
 }
 .info h4 {
     color: #ffffff;
     font-size: calc(12px + 0.7vw);
 }
+
+.infoList {
+    padding-left: 20px;
+    line-height: 1.5em;
+}
+.infoList ul{
+    padding-left: 20px;
+}
+.infoList b{
+    color: #6ab3e1;
+}
+
+
 
 
 
