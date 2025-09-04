@@ -134,7 +134,11 @@ a {
       /* object-position: center; */
       display: block;
       margin:  0 auto;
-
+    }
+    .links {
+        justify-content: center;
+        padding: 10px 0px 20px 0px;
+        gap: 10px;
     }
 }
 
