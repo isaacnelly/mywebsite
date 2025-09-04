@@ -4,11 +4,12 @@ html {
     margin: 0;
     padding: 0;
     min-height: 100%;
+    font-family: eb garamond;
+
 }
 
 body {
     background: transparent;
-    font-family: sans-serif;
     margin: 0;
 }
 
@@ -27,7 +28,6 @@ body {
     color: #ffffff;
     padding: 30px;
     text-align: left;
-    font-family: sans-serif;
     font-size: 2.7vw;
     background-color: transparent;
     /*background-image: linear-gradient(#ffffff,#0025ff,#001599); */
