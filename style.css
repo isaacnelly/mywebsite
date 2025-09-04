@@ -18,6 +18,10 @@ body {
     min-height: 100vh;
     overflow: hidden;
 }
+.name {grid-area: name;}
+.links {grid-area: links;}
+.left {grid-area: left;}
+.right {grid-area: right;}
 
 .name {
     color: #ffffff;
@@ -43,9 +47,9 @@ body {
 
     .links a {
         padding: 2.5vw 1.5vw;
-        float: left;
+        /*float: center;*/
         display: block;
-        text-align: left;
+        /*text-align: center;*/
         text-decoration: none;
         border-radius: 1.5vw;
 
@@ -69,13 +73,15 @@ a {
     background-color: transparent;
 }
 
+.left img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  min-width: 100px;
+  border-radius: 2vw;
+}
 
-/* @media screen and (max-width: 600px) {
-    div.left {
-        width: 50%;
-        height: 100%;
-    }
-} */
+
 
 .about {
     color: white;
@@ -105,24 +111,32 @@ a {
     line-height: 2em;
 }
 
-@media screen and (max-width: 600px) {
-    .info {
-        text-indent: 0px;
+@media (max-width: 768px){
+    .page{
+        display: grid;
+        grid-template-areas:
+        "name"
+        "left"
+        "right"
+        "links";
+        grid-template-columns: 1fr;
     }
-}
-
-@media screen and (min-width: 601px) {
-    .info {
-        padding: 0px 1.5vw 0px 30vw;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .infoParent {
+    .left, .right{
+        max-width: 100%;
+        float: none;
         text-align: center;
     }
-}
+    .left img {
+      max-height: 300px;
+      width: auto;
+      object-fit: cover;
+      float: center;
+      /* object-position: center; */
+      display: block;
+      margin:  0 auto;
 
+    }
+}
 
 /*Scrollbar style -----------------------------------------------------*/
 ::-webkit-scrollbar {
