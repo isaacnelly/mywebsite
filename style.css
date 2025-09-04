@@ -69,6 +69,7 @@ name h1 {
     border-radius: 1.5vw;
     transition: background-color 0.47s ease, color 0.47s ease;
 
+    
 }
 
 .links a:hover {
@@ -113,11 +114,6 @@ a {
     background-color: transparent;
 }
 
-@media screen and (max-width: 600px) {
-    div.right {
-        padding: 25px 0px 10px 1vw;
-    }
-}
 
 .info {
     text-indent: 50px;
@@ -125,6 +121,16 @@ a {
     padding: 0px 15px 0px 15px;
     font-size: calc(12px + 0.7vw);
     line-height: 2em;
+}
+
+@media (hover: hover){
+    .downloadbtn:hover,
+    .links a:hover {
+        transform: scale (1.1);
+        background: #ffffff;
+        color: #000000;
+        
+    }
 }
 
 @media (max-width: 768px){
