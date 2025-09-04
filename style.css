@@ -62,20 +62,19 @@ name h1 {
     /*background-image: linear-gradient(#001599,#110070); */
 }
 
-    .links a {
-        padding: 2.5vw 1.5vw;
-        /*float: center;*/
-        display: block;
-        /*text-align: center;*/
-        text-decoration: none;
-        border-radius: 1.5vw;
+.links a {
+    padding: 2.5vw 1.5vw;
+    display: block;
+    text-decoration: none;
+    border-radius: 1.5vw;
+    transition: background-color 0.47s ease, color 0.47s ease;
 
-    }
+}
 
-        .links a:hover {
-            background: #ffffff;
-            color: #000000;
-        }
+.links a:hover {
+    background: #ffffff;
+    color: #000000;
+}
 /*unvisited link*/
 a {
     color: #ffffff;
@@ -138,6 +137,9 @@ a {
         "links";
         grid-template-columns: 1fr;
     }
+    .name {
+        font-size: 5.5vw;
+    }
     .left, .right{
         max-width: 100%;
         float: none;
@@ -153,11 +155,18 @@ a {
       margin:  0 auto;
     }
     .links {
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         padding: 10px 0px 20px 0px;
         gap: 10px;
         font-size: 4vw;
     }
+    .links a {
+        background-color:#00105b;
+        padding: 3vw 30vw;
+        border-radius: 5vw;
+    }
+
 }
 
 /*Scrollbar style -----------------------------------------------------*/
