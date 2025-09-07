@@ -150,8 +150,12 @@ a {
     width: auto;
     margin-right: 10px;
 }
-.footer-links a[title="GitHub"] {
+.footer-links a[title="GitHub"], .footer-links a[title="LinkedIn"] {
     margin-right: 3.5vw;
+}
+
+.footer-links a[title="gmail"]{
+    bor
 }
     
 
