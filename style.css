@@ -123,6 +123,38 @@ a {
     line-height: 2em;
 }
 
+.footer {
+    display: block;
+    background: #2f2f2f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    font-size: calc(10px + 0.5vw);
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.footer-links  {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social-icon {
+    height: 3vw;
+    width: auto;
+    margin-right: 10px;
+}
+.footer-links a[title="GitHub"] {
+    margin-right: 3.5vw;
+}
+    
+
 @media (hover: hover){
     .downloadbtn:hover,
     .links a:hover {
