@@ -1,6 +1,6 @@
 html {
     
-    background:#000000;
+    background:#475342;
     margin: 0;
     padding: 0;
     min-height: 100%;
@@ -34,12 +34,14 @@ body {
     text-align: center;
     font-size: 2.7vw;
     background-color: transparent;
+    font-family: rivian libre, sans-serif;
     /*background-image: linear-gradient(#ffffff,#0025ff,#001599); */
 }
 name h1 {
     margin: 0;
     font-size: 2.5rem;
     text-align: center;
+
 }
 .logo {
     position: absolute;
@@ -66,7 +68,7 @@ name h1 {
     padding: 2.5vw 1.5vw;
     display: block;
     text-decoration: none;
-    border-radius: 1.5vw;
+    border-radius: 8vw;
     transition: background-color 0.47s ease, color 0.47s ease;
 
     
