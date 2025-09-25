@@ -9,6 +9,31 @@ html, body {
 .page{
     flex: 1;
 }
+.header{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    margin: 20px 0;
+}
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 20px;
+  padding: 10px 16px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  transform: translateX(-3px);
+  color: #bcbcbc;
+  background: transparent;
+}
 .title {
   color: #ffffff;
   text-align: center;
